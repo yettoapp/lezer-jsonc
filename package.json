@@ -1,5 +1,5 @@
 {
-  "name": "@lezer/json",
+  "name": "@lanyue/jsonc",
   "version": "1.0.0",
   "description": "lezer-based JSON grammar",
   "main": "dist/index.cjs",
@@ -10,7 +10,7 @@
   },
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "author": "Arun Srinivasan <rulfzid@gmail.com>",
+  "author": "lanyue <lanyueos@qq.com>",
   "license": "MIT",
   "devDependencies": {
     "@lezer/generator": "^1.0.0",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lezer-parser/json.git"
+    "url": "https://github.com/mengdu/jsonc"
   },
   "scripts": {
     "build": "lezer-generator src/json.grammar -o src/parser && rollup -c",

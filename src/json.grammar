@@ -27,10 +27,20 @@ PropertyName { string }
 
   whitespace { $[ \n\r\t] }
 
+  LineComment { "//" ![\n]* }
+
+  BlockComment { "/*" blockCommentRest }
+
+  blockCommentRest { ![*] blockCommentRest | "*" blockCommentAfterStar }
+
+  blockCommentAfterStar { "/" | "*" blockCommentAfterStar | ![/*] blockCommentRest }
+
+  @precedence { BlockComment, LineComment }
+
   "{" "}" "[" "]"
 }
 
-@skip { whitespace }
+@skip { whitespace | LineComment | BlockComment }
 list<item> { item ("," item)* }
 
 @external propSource jsonHighlighting from "./highlight"

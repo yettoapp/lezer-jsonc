@@ -1,6 +1,8 @@
-# @lezer/json
+# jsonc
 
-This is a JSON grammar for the [lezer](https://lezer.codemirror.net/) parser system.
+> fork https://github.com/lezer-parser/json
+
+This is a JSON with comment grammar for the [lezer](https://lezer.codemirror.net/) parser system.
 
 Reference:
 - https://www.json.org/json-en.html
