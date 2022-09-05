@@ -2,6 +2,10 @@
 
 > fork https://github.com/lezer-parser/json
 
+```sh
+npm install @lanyue/jsonc
+```
+
 This is a JSON with comment grammar for the [lezer](https://lezer.codemirror.net/) parser system.
 
 Reference:
