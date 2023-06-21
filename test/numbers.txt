@@ -4,7 +4,7 @@
 
 ==>
 
-JsonText(Number)
+JsoncText(Number)
 
 # Zero By Itself Is Ok
 
@@ -12,7 +12,7 @@ JsonText(Number)
 
 ==>
 
-JsonText(Number)
+JsoncText(Number)
 
 # Leading Zeros Aren't Ok
 
@@ -20,7 +20,7 @@ JsonText(Number)
 
 ==>
 
-JsonText(Array(Number, ⚠(Number)))
+JsoncText(Array(Number, ⚠(Number)))
 
 # Optional Minus Sign
 
@@ -28,7 +28,7 @@ JsonText(Array(Number, ⚠(Number)))
 
 ==>
 
-JsonText(Number)
+JsoncText(Number)
 
 # Decimal Digits
 
@@ -36,7 +36,7 @@ JsonText(Number)
 
 ==>
 
-JsonText(Number)
+JsoncText(Number)
 
 # Must Have Digits After Decimal
 
@@ -44,7 +44,7 @@ JsonText(Number)
 
 ==>
 
-JsonText(Number, ⚠)
+JsoncText(Number, ⚠)
 
 # Exponent: Lowercase e
 
@@ -52,7 +52,7 @@ JsonText(Number, ⚠)
 
 ==>
 
-JsonText(Number)
+JsoncText(Number)
 
 # Exponent: Uppercase E
 
@@ -60,7 +60,7 @@ JsonText(Number)
 
 ==>
 
-JsonText(Number)
+JsoncText(Number)
 
 # Exponent: Optional Plus Sign
 
@@ -68,7 +68,7 @@ JsonText(Number)
 
 ==>
 
-JsonText(Number)
+JsoncText(Number)
 
 # Exponent: Optional Minus Sign
 
@@ -76,7 +76,7 @@ JsonText(Number)
 
 ==>
 
-JsonText(Number)
+JsoncText(Number)
 
 # Exponent Without Digit Is Not Ok
 
@@ -84,4 +84,4 @@ JsonText(Number)
 
 ==>
 
-JsonText(Number, ⚠)
+JsoncText(Number, ⚠)

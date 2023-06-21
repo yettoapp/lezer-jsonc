@@ -1,4 +1,4 @@
-@top JsonText { value }
+@top JsoncText { value }
 
 value { True | False | Null | Number | String | Object | Array }
 
@@ -8,7 +8,6 @@ Array  { "[" list<value>? "]" }
 
 Property { PropertyName ":" value }
 PropertyName { string }
-
 
 @tokens {
   True  { "true" }
@@ -34,8 +33,6 @@ PropertyName { string }
   blockCommentRest { ![*] blockCommentRest | "*" blockCommentAfterStar }
 
   blockCommentAfterStar { "/" | "*" blockCommentAfterStar | ![/*] blockCommentRest }
-
-  @precedence { BlockComment, LineComment }
 
   "{" "}" "[" "]"
 }

@@ -1,7 +1,7 @@
 {
-  "name": "@lanyue/jsonc",
+  "name": "@yettoapp/lezer-jsonc",
   "version": "1.0.0",
-  "description": "lezer-based JSON grammar",
+  "description": "lezer-based JSONC grammar, with support for demarcations",
   "main": "dist/index.cjs",
   "type": "module",
   "exports": {
@@ -10,7 +10,11 @@
   },
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "author": "lanyue <lanyueos@qq.com>",
+  "author": {
+    "name": "Yetto",
+    "email": "info@yetto.app",
+    "url": "https://yetto.app"
+  },
   "license": "MIT",
   "devDependencies": {
     "@lezer/generator": "^1.0.0",
@@ -24,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mengdu/jsonc"
+    "url": "https://github.com/yettoapp/lezer-jsonc.git"
   },
   "scripts": {
-    "build": "lezer-generator src/json.grammar -o src/parser && rollup -c",
-    "build-debug": "lezer-generator src/json.grammar --names -o src/parser && rollup -c",
+    "build": "lezer-generator src/jsonc.grammar -o src/parser && rollup -c",
+    "build-debug": "lezer-generator src/jsonc.grammar --names -o src/parser && rollup -c",
     "prepare": "npm run build",
-    "test": "npm run build && mocha test/test-json.js"
+    "test": "npm run build && mocha test/test-jsonc.js"
   }
 }

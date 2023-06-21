@@ -4,7 +4,7 @@
 
 ==>
 
-JsonText(String)
+JsoncText(String)
 
 # Non-empty String
 
@@ -12,7 +12,7 @@ JsonText(String)
 
 ==>
 
-JsonText(String)
+JsoncText(String)
 
 # All The Valid One-Character Escapes
 
@@ -20,7 +20,7 @@ JsonText(String)
 
 ==>
 
-JsonText(String)
+JsoncText(String)
 
 # Unicode Escape
 
@@ -28,4 +28,4 @@ JsonText(String)
 
 ==>
 
-JsonText(String)
+JsoncText(String)

@@ -4,7 +4,7 @@
 
 ==>
 
-JsonText(Array)
+JsoncText(Array)
 
 # Array With One Value
 
@@ -12,7 +12,7 @@ JsonText(Array)
 
 ==>
 
-JsonText(Array(String))
+JsoncText(Array(String))
 
 # Array With Multiple Values
 
@@ -26,7 +26,7 @@ JsonText(Array(String))
 
 ==>
 
-JsonText(Array(
+JsoncText(Array(
   String,
   Number,
   True,

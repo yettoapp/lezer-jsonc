@@ -4,7 +4,7 @@
 
 ==>
 
-JsonText(Object)
+JsoncText(Object)
 
 # One Property
 
@@ -14,7 +14,7 @@ JsonText(Object)
 
 ==>
 
-JsonText(Object(Property(PropertyName,Number)))
+JsoncText(Object(Property(PropertyName,Number)))
 
 # Multiple Properties
 
@@ -27,7 +27,7 @@ JsonText(Object(Property(PropertyName,Number)))
 
 ==>
 
-JsonText(Object(
+JsoncText(Object(
   Property(PropertyName,Number),
   Property(PropertyName,String),
   Property(PropertyName,Object),

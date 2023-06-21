@@ -4,7 +4,7 @@ true
 
 ==>
 
-JsonText(True)
+JsoncText(True)
 
 # False
 
@@ -12,7 +12,7 @@ false
 
 ==>
 
-JsonText(False)
+JsoncText(False)
 
 # Null
 
@@ -20,4 +20,4 @@ null
 
 ==>
 
-JsonText(Null)
+JsoncText(Null)
