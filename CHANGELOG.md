@@ -1,3 +1,5 @@
+## [v0.0.6] - 23-06-2023
+**Full Changelog**: https://github.com/yettoapp/lezer-jsonc/compare/v0.0.5...v0.0.6
 ## [v0.0.5] - 23-06-2023
 **Full Changelog**: https://github.com/yettoapp/lezer-jsonc/compare/v0.0.4...v0.0.5
 ## [v0.0.4] - 23-06-2023
