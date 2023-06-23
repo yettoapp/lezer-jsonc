@@ -1,6 +1,6 @@
 {
   "name": "@yettoapp/lezer-jsonc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "lezer-based JSONC grammar, with support for demarcations",
   "main": "dist/index.cjs",
   "type": "module",
