@@ -12,6 +12,8 @@ jobs:
   dependabot:
     uses: yettoapp/actions/.github/workflows/automerge_dependabot.yml@main
     secrets: inherit
+    with: 
+      automerge: true
 
   sisyphusbot:
     uses: yettoapp/actions/.github/workflows/automerge_sisyphusbot.yml@main
